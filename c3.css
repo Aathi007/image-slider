@@ -1,0 +1,33 @@
+.cont1 img{
+    height:30px;
+    width: 30px;
+}
+.cont1{
+    min-height: 70vh;
+    border: solid black;
+    border-radius: 20px;
+    box-shadow: 1px 0px 20px 0px;
+    margin: 50px 60px;
+    position: relative;
+    display: flex;
+    background: url('images/m1.jpg') center/cover fixed no-repeat ;
+    transition:background 1s ease-in-out;
+}
+.btn-left{
+    position:absolute;
+    top:45%;
+    left:-0.5em;
+    background-color: wheat;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: translateY(calc(50%));
+}
+.btn-right{
+    position:absolute;
+    top:45%;
+    right:-0.7em;
+    background-color: wheat;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: translateY(calc(50%));
+}
